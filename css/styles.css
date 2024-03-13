@@ -68,7 +68,6 @@ header > address {
 .header-nav {
   display: flex;
   align-items: center;
-  position: relative;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -79,6 +78,7 @@ header > address {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  position: relative;
 }
 .header-logo-2 {
   color: #2e2f42;
