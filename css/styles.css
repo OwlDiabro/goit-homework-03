@@ -20,6 +20,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -53,18 +54,7 @@ header > address {
 .address-mail:focus {
   color: #404bbf;
 }
-.address-mail {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.address-mail:hover {
-  color: #404bbf;
-}
-.address-mail:focus {
-  color: #404bbf;
-}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -91,6 +81,7 @@ header > address {
 .header-address {
   display: flex;
   gap: 40px;
+  margin-left: 332px;
 }
 .spisokhead {
   padding: 24px 0;
@@ -106,6 +97,7 @@ header > address {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin: 0 auto;
 }
 .lozung-button {
   display: block;
@@ -119,6 +111,7 @@ header > address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  margin: 0 auto;
 }
 .lozung-button:hover {
   background-color: #404bbf;
