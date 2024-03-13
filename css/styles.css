@@ -21,6 +21,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
+  align-items: baseline;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -239,6 +240,9 @@ header > address {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+.footer-obg {
+  margin-right: 120px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
