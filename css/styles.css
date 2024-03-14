@@ -13,6 +13,9 @@ ul {
 img {
   display: block;
 }
+p {
+  margin: 0;
+}
 .header-div {
   display: flex;
 }
