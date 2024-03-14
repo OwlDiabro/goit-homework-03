@@ -88,7 +88,12 @@ header > address {
 .spisokhead {
   padding: 24px 0;
   position: relative;
+  color: #404bbf;
 }
+.spisokhead::after {
+  content: "";
+}
+
 .lozung {
   padding: 188px 0;
   background-color: #2e2f42;
