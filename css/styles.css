@@ -274,7 +274,9 @@ header > address {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-
+.paragraf-foot {
+  margin-bottom: 16px;
+}
 .footer-ul {
   display: flex;
   gap: 16px;
