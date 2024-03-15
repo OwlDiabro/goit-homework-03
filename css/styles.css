@@ -143,6 +143,7 @@ header > address {
   letter-spacing: 0.04em;
   color: #ffffff;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lozung-button:hover {
   background-color: #404bbf;
