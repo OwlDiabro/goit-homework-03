@@ -295,12 +295,27 @@ header > address {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.our-port-li:hover .app-p {
-  transform: translateY(0%);
-}
-.our-port-li-im {
+.overlay {
   position: relative;
   overflow: hidden;
+}
+.text-overlay {
+  position: absolute;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  transform: translateY(100%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 40px 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.our-port-li:hover .text-overlay {
+  transform: translateY(0);
 }
 .our-port-li-div {
   padding: 32px 16px;
