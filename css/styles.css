@@ -16,6 +16,16 @@ img {
 p {
   margin: 0;
 }
+address {
+  margin-left: auto;
+  font-style: normal;
+}
+h1 h2 h3 h4 h5 {
+  margin: 0 auto;
+}
+ul {
+  margin: 0 auto;
+}
 .header-div {
   display: flex;
 }
@@ -28,24 +38,21 @@ p {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  height: 72px;
 }
-.spisokhead {
+.head-current {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.spisokhead:hover {
+.head-current:hover {
   color: #404bbf;
 }
-.spisokhead:focus {
+.head-current:focus {
   color: #404bbf;
 }
 
-.header-nav-add {
-  margin-left: auto;
-  font-style: normal;
-}
 .address-mail {
   font-size: 16px;
   line-height: 1.5;
@@ -132,6 +139,7 @@ p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 .lozung-button {
   display: block;
@@ -401,4 +409,10 @@ p {
 }
 .svg-foot {
   fill: #f4f4fd;
+}
+.container-footer {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
